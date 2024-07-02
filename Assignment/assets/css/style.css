@@ -1,0 +1,59 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../../images/1700.jpg) !important;
+}
+
+.cardImg{
+filter: grayscale(0.6);
+transition: 5;
+}   
+
+.cardImg:hover{
+filter: grayscale(0);
+}
+
+.card{
+cursor: pointer;
+}
+
+.active{
+  color: blueviolet !important;
+}
+
+
+/* loading */
+
+.loading nav {
+display: none;
+}
+
+.loading section {
+display: none;
+}
+
+.loading .load{
+  display: block !important ; 
+  width: 100vw;
+  height: 100vh;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
